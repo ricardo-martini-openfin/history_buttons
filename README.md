@@ -19,13 +19,10 @@ This project seed includes the following [Platform API](https://openfin.co/platf
 * Clone this repository
 * Install the dependencies: `npm install`
 * Start the live-server and launch the application: `npm start`
+* Navigate to a page on google
+* Open up the left-menu tab and click on history
+* The buttons will send the original view forward or back
 
-**Advanced Usage:**
-
-For users who would like to test features with a different OpenFin Runtime, configure your workspace as follows:
-
-* Generate a local manifest file, _local.json_, with the specified Runtime version, e.g. canary: `npm start -- canary`
-* Subsequent launches will automatically use _local.json_; delete this file to revert to _app.json_
 
 ## Understanding the code
 
@@ -56,8 +53,12 @@ Provides examples of the following functionality:
 * Draggable area
 * Close/Maximize/Minimize buttons
 
+##### history
+Provides Examples of the following:
+*Back Button that will take the first view and goes back in history
+*Forward Button that will take the first view and goes forward in history
+
 ### Provider
 Our [custom Provider](js/platform-provider.js) includes an [extension](js/external-window-snapshot.js) that will look for a pre-configured list of [externalWindows](https://cdn.openfin.co/docs/javascript/15.80.49.21/ExternalWindow.html) (the default being the provided [my_platform_notes.txt](my_platform_notes.txt) file opened in notepad.exe) and:
 
-* Override `getSnapshot` to include a [externalWindows](https://cdn.openfin.co/docs/javascript/15.80.49.21/ExternalWindow.html) section containing information on any any external window included in the configuration.
-* Override `applySnapshot` to look for an [externalWindows](https://cdn.openfin.co/docs/javascript/15.80.49.21/ExternalWindow.html) section and restore the position and state of any external window included in the configuration.
+
