@@ -1,4 +1,4 @@
-# Platform API Project Seed
+# Platform History Buttons
 
 This project seed includes the following [Platform API](https://openfin.co/platform-api) capabilites:
 
