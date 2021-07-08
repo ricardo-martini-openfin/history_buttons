@@ -41,6 +41,7 @@
             }
         },
         "defaultViewOptions": {
+            "name": "test-view",
             "experimental": {
                 "childWindows": true,
                 "analytics": true
@@ -67,7 +68,7 @@
                                     "componentName": "view",
                                     "componentState": {
                                         "processAffinity": "ps_1",
-                                        "url": "https://cdn.openfin.co/embed-web/chart.html"
+                                        "url": "http://google.com"
                                     }
                                 }
                             ]
