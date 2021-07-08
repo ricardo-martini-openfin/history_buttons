@@ -55,8 +55,8 @@ Provides examples of the following functionality:
 
 ##### history
 Provides Examples of the following:
-*Back Button that will take the first view and goes back in history
-*Forward Button that will take the first view and goes forward in history
+* Back Button that will take the first view and goes back in history
+* Forward Button that will take the first view and goes forward in history
 
 ### Provider
 Our [custom Provider](js/platform-provider.js) includes an [extension](js/external-window-snapshot.js) that will look for a pre-configured list of [externalWindows](https://cdn.openfin.co/docs/javascript/15.80.49.21/ExternalWindow.html) (the default being the provided [my_platform_notes.txt](my_platform_notes.txt) file opened in notepad.exe) and:
